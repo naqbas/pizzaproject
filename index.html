@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="content__main">
+    <header class="header">
+      <div class="header__left">
+        <img src="./images/logo.png" alt="logo">
+        <div class="header__title">
+          <p>PIZZA</p>
+          <p>самая вкусная пицца во вселенной</p>
+        </div>
+      </div>
+      <div class="header__right">
+        <p id="totalPrice">0тг</p>
+        <p>|</p>
+        <p id="totalPizza">0</p>
+      </div>
+    </header>
+    <div class="nav">
+      <div class="nav__left">
+        <p id="all__pizza">Все</p>
+        <p id="meat__pizza">Мясные</p>
+        <p id="vegetarian__pizza">Вегетарианские</p>
+        <p id="spicy__pizza">Острые</p>
+      </div>
+      <div class="nav__right">
+        <p>Сортировка по:</p>
+        <select id="select">
+          <option value="priceAsc">возрастанию цены</option>
+          <option value="priceDesc">убыванию цены</option>
+        </select>
+      </div>
+    </div>
+    <div class="content"></div>
+  </div>
+  </div>
+
+  <div id="content__basket"></div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
