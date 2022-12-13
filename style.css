@@ -215,9 +215,9 @@ p {
 .pizza__count_basket p:nth-child(1),
 .pizza__count_basket p:nth-child(3),
 .deletePizza {
-	border: 2px solid;
-	border-radius: 50%;
-	padding: 0.5vw 1vw;
+	border: 1px solid;
+	border-radius: 1vw;
+	padding: 0 0.5vw;
 	color: #FE5F1E;
 }
 
